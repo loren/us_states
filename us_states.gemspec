@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = "us_states"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Byron Anderson"]
-  s.date = "2012-09-28"
-  s.description = "TODO: longer description of your gem"
+  s.authors = ["Byron Anderson", "Jim Gilliam"]
+  s.date = "2012-09-29"
+  s.description = "As simple as that"
   s.email = "byron@nationbuilder.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -26,13 +26,14 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/us_states.rb",
     "spec/spec_helper.rb",
-    "spec/us_states_spec.rb"
+    "spec/us_states_spec.rb",
+    "us_states.gemspec"
   ]
   s.homepage = "http://github.com/byronanderson/us_states"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "A module containing a list of all of the united states and territories"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
