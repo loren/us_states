@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "us_states"
   gem.homepage = "http://github.com/byronanderson/us_states"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary     = "A module containing a list of all of the united states and territories"
+  gem.description = "As simple as that"
   gem.email = "byron@nationbuilder.com"
-  gem.authors = ["Byron Anderson"]
+  gem.authors = ["Byron Anderson", "Jim Gilliam"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
